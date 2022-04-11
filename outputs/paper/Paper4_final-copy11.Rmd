@@ -1,5 +1,5 @@
 ---
-title: "Assignment_result"
+title: "Education level in the Philippines"
 author: "Yingxuan Shi, Jingxian Zhai, Wantong Qiu"
 data: "09/04/2022"
 toc: true
@@ -32,7 +32,7 @@ citation("formattable")
 
 # 1 Introduction
 
-With the development of society, there is an increasing demand for education, because education can help people improve their speaking skills, develop critical thinking, promote gender equality, and improve their cognitive system after learning knowledge(@aa). The education level of the current society is not only for individuals, but also to show the development level of a society and a country. Therefore, we selected the education level of the Philippines among many countries for further analysis. To be specific, we selected some data about education levels from National Demographic and Health Survey 1998 in the Philippines for the following research and analysis.
+With the development of society, there is an increasing demand for education, because education can help people improve their speaking skills, develop critical thinking, promote gender equality, and improve their cognitive system after learning knowledge(@aa). The education level of the current society is not only for individuals, but also to show the development level of a society and a country. Therefore, we selected the education level of the Philippines among many countries for further analysis. To be specific, we selected some data about education levels from National Demographic and Health Survey 1998 in the Philippines for the following research and analysis.^[https://github.com/JingT13/STA304_paper_4.git]
 
 In this paper, the main idea is about analyzing education levels in the Philippines through the data on age, gender, and region. The first is to observe whether people of each age group participate in their education level relative to what they need to achieve through age data. Because not every age group can receive the corresponding educational conditions in time. Then there is the data about gender, hoping to observe whether men and women receive equal education in this country through the data of gender. As we mentioned above, education is not only about academics, but also about promoting gender equality. Therefore, we hope to analyze whether the education rate is balanced for men and women through gender data. On the other hand, education levels in urban and rural areas. From this data, we can analyze whether there is a big gap between urban and rural education levels. 
 
@@ -110,6 +110,9 @@ new_my_data_male <- my_data_male %>%
   mutate(`Median Number of Years of Schooling` = as.numeric(`Median Number of Years of Schooling`)) %>%
   mutate(`College or Higher` = as.numeric(`College or Higher`))
 new_my_data_male
+
+
+
 ```
 
 
@@ -164,6 +167,8 @@ new_my_data_female <- my_data_female %>%
   mutate(`Median Number of Years of Schooling` = as.numeric(`Median Number of Years of Schooling`)) %>%
   mutate(`College or Higher` = as.numeric(`College or Higher`))
 new_my_data_female
+
+
 ```
 
 
@@ -216,6 +221,8 @@ new_my_data_residence_m <- my_data_residence_m %>%
   mutate(`Median Number of Years of Schooling` = as.numeric(`Median Number of Years of Schooling`)) %>%
   mutate(`College or Higher` = as.numeric(`College or Higher`))
 new_my_data_residence_m
+
+
 ```
 
 ```{r echo=FALSE, include=FALSE}
@@ -270,6 +277,7 @@ new_my_data_residence_f <- my_data_residence_f %>%
 new_my_data_residence_f
 
 remove(residence_f_pointblank)
+
 ```
 
 ```{r echo=FALSE, include=FALSE}
