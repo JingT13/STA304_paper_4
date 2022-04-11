@@ -38,7 +38,6 @@ In this paper, the main idea is about analyzing education levels in the Philippi
 
 In the National Demographic and Health Survey 1998, we selected data about education levels for analysis. The first step is to import the data from the Survey. Then it is data cleaning, specifically, the transformation of some wrong typed of data, filtering out missing values and some useless data. Then the data of age, gender, and residence are plotted and analyzed by graphs and tables.In the Results section, we find the relationship between age and respondents' education levl, schooling time; regions and respondents' education level; gender and respondents' education level. In the discussion section, we discuss whether our results match the real cases, and then think about limitations and future.
 
-
 # 2 Data section
 
 ## 2.1 Data Cleaning
@@ -834,4 +833,5 @@ In most developing countries, such as China and Thailand, men are more educated 
 8. *Any other comments?*
  - None.
 
+\newpage
 # Reference
